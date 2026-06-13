@@ -48,10 +48,9 @@ that I bring to every project.
 
 ---
 
-## 📌 Featured Project
+## 📌 Featured Projects
 
 ### [generador-examenes-back](https://github.com/Irene-R-Carmona/generador-examenes-back)
-
 > Exam management REST API built with a full microservices architecture
 > during my internship at VIEWNEXT (IBM group).
 
@@ -59,13 +58,22 @@ that I bring to every project.
 |---|---|
 | **Architecture** | 6 independent microservices — Eureka, Spring Cloud Gateway, OpenFeign, Resilience4j |
 | **Security** | JWT stateless auth, RBAC, Redis token blacklist, rate limiting (Bucket4j) |
-| **Infrastructure** | Docker Compose with 15 services — 4 independent MySQL DBs, Redis, Jenkins, SonarQube |
-| **Quality** | 590 tests passing · ≥80% coverage (JaCoCo) · OpenAPI 3.0 · 27 ADRs |
-| **CI/CD** | Jenkins pipeline + GitHub Actions on every push to main/develop |
-| **Migrations** | Flyway per microservice — schema evolution without downtime |
+| **Infrastructure** | Docker Compose (15 services) · Jenkins · GitHub Actions · SonarQube |
+| **Quality** | 590 tests · ≥80% coverage (JaCoCo) · OpenAPI 3.0 · 27 ADRs |
 
-`Java 21` `Spring Boot 4` `Spring Cloud` `Spring Security` `Redis`
-`MySQL` `Docker` `Jenkins` `JUnit 5` `Resilience4j` `MapStruct` `Flyway`
+---
+
+### [komorebi](https://github.com/Irene-R-Carmona/komorebi)
+> Full-stack café management platform built as Final Degree Project (DAW),
+> with a custom MVC framework (no Laravel/Symfony) and live deployment.
+
+| | |
+|---|---|
+| **Scope** | 250+ HTTP routes · 53 business services · 29 repositories · 95+ REST endpoints |
+| **Architecture** | Custom MVC framework · PSR-7/14/15 · 12-Factor App · RBAC (7 roles) |
+| **Real-time** | Kitchen Display System (KDS) via Server-Sent Events (SSE) |
+| **Quality** | PHPUnit · PHPStan L5 · Psalm · Playwright E2E · WCAG 2.1 AA |
+| **Deployment** | ✅ Live on Railway |
 
 ---
 
